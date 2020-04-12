@@ -71,7 +71,7 @@ class App extends React.Component {
           }
           {this.movies && this.movies.length === 0 &&
             (
-              <div>
+              <div className='no-results-message'>
                 <span>La búsqueda no devolvió resultados</span>
               </div>  
             )
