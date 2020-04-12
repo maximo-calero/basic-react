@@ -7,7 +7,7 @@ const SearchParameters = () => {
         <div className='search-parameters-container'>
           <input className='search-text-box' type='text' value='' placeholder='Introduzca el nombre de una película'/>
           <button className='search-button' value='Buscar'>
-            <img className='search-icon' src={searchIcon} />            
+            <img alt='search icon' className='search-icon' src={searchIcon} />            
           </button>
         </div>        
     );

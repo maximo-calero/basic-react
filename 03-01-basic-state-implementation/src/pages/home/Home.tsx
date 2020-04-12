@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import SearchParameters from './components/search-parameters/SearchParameters';
-import ResultSearch from './components/result-search/ResultSearch';
-import { Movie } from './common/interfaces/movie';
+import './Home.css';
+import SearchParameters from '../../components/search-parameters/SearchParameters';
+import ResultSearch from '../../components/result-search/ResultSearch';
+import { Movie } from '../../common/interfaces/movie';
 
 class App extends React.Component {
   movies: Movie[] = [

@@ -15,7 +15,7 @@ const ResultSearch = (props: Props) => {
                 props.movies.map(movie => {
                     return (
                     <div key={movie.id} className='result-item'>
-                        <img src={movie.imageUrl ? movie.imageUrl : defaultImage} />
+                        <img alt={movie.title} src={movie.imageUrl ? movie.imageUrl : defaultImage} />
                         <span>{movie.title}</span>
                     </div>
                     );
