@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+  margin: 3em;
+  padding: 1em;
+} 
+.title {
+  color: rgb(68, 68, 190);
+}
