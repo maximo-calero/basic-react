@@ -7,7 +7,7 @@ class DataService {
 
     constructor() {
         this.apiUrl = 'https://api.themoviedb.org/3';
-        this.apiKey = '8e04168f7bad30462aace99b52adbfd3';
+        this.apiKey = '<APIKEY>';
     }
     
     public async searchMovies(queryText: string, page: number): Promise<SearchResults> {
