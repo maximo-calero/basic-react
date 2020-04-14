@@ -1,0 +1,43 @@
+.result-search {
+    border-top: 1px solid ;
+    width: 90%;
+  }
+  .result-items {
+    width: inherit;
+    margin: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .result-item {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 10em;
+    border-style: solid;
+    border-width: 1px;  
+    border-radius: 8px;
+    border-color: green;
+    margin: 5px;
+  }
+  .result-item img {
+    max-width: 8em;
+  }
+  .result-item span {
+    font-size: 1.3em;
+    padding-bottom: 1em;
+  }
+  .no-results-message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+  }
+  .no-results-message span {
+    font-size: 3em;
+    color: red;
+  }
