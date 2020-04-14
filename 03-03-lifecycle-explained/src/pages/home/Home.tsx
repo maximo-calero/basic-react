@@ -65,7 +65,7 @@ class Home extends React.Component<Props, State> {
   }
 
   render() {
-    console.log('render Home');
+    console.log('Home render');
     return (
       <div className="main-container">
         <h1 className='title'>Buscador de películas</h1>
